@@ -1,0 +1,45 @@
+
+    .body {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    
+    left: 0;
+}
+#centerbox {
+    opacity: 1;
+    width: 60%;
+    height: auto ;
+    padding: 40px 100px;
+    position: relative;
+    margin: 50px auto 50px auto;
+    background: url(bodyback.jpeg);
+    box-shadow: 10px 10px 30px #000000;
+    border: 5px solid #0066cc;
+    border-radius: 0 30px 0 30px;
+}
+#logoHead {
+    height: auto;
+    width: 30%;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 0;
+}
+.textbox {
+    direction: rtl;
+    text-align: justify;
+    color: black;
+    font-size: 18pt;
+    font-family: roya;
+    line-height: 40px;
+    
+}
+@font-face {
+    font-family: 'Yekan';
+    src: url('../font/BYekan.eot?#') format('eot'), /* IE6–8 */
+        url('../font/BYekan.woff') format('woff'), url('../font/BYekan.ttf') format('truetype'); /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+                            
